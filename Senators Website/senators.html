@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="senators.css">
+    <meta charset="utf-8">
+    <title>Senators</title>
+    <style></style>
+</head>
+<body>
+    <img id ="banner" src="Images/banner3.jpg" alt="USA_FLAG">
+    <h1>United States Senate</h1>
+    <div id="countDisplay"></div>
+    <br><br>
+    <h2 class = "heading">Leadership Roles</h2>
+    <div id ="main">
+    <div id="LeadershipTitles"></div>
+</div>
+    <!-- Table of Senators -->
+    <h2 class = "heading">United States Senators</h2>
+    <h4>Click for more details</h4>
+    
+    <div class="scroll-box">
+        <div class="scroll-content">
+    <table id="senatorsData">
+        <tr>
+            <th>Name</th>
+            <th id ='party'>Party
+                <!-- Filter dropdown for Parties that is called in the .JS file -->
+                <select onchange="filterParty(this.value)">
+                    <option value="Show All">Show All</option>
+                    <option value="Democrat">Democrat</option>
+                    <option value="Republican">Republican</option>
+                    <option value="Independent">Independent</option>
+                </select>
+            </th>
+            <th>State
+                <!-- Filter dropdown for States that is called in the .JS file -->
+                <select id='states' onchange="filterState(this.value)">
+                    <option value="Show All">Show All</option>
+                </select>
+            </th>
+            <th>Gender</th>
+            <th>Rank
+                <!-- Filter dropdown for Rank that is called in the .JS file -->
+                <select onchange="filterRank(this.value)">
+                    <option value="Show All">Show All</option>
+                    <option value="junior">junior</option>
+                    <option value="senior">senior</option>
+                </select>
+            </th>
+        </tr>
+    </table>
+</div>
+</div>
+<footer>
+    <p>2023 ★ Rizalynne Idos & Christian Keogh</p>
+  </footer>
+    <script src="senators.js"></script>
+</body>
+
+</html>

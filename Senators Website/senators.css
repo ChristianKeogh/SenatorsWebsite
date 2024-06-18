@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-decoration-line: overline;
+    text-decoration-color: red;
+    font-size: 100px;
+    padding-top: 0;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+}
+h4 {
+    text-align: center;
+}
+p {
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    justify-items: left;
+}
+#banner {
+    width: 100%;
+    padding: 0;
+}
+#countDisplay {
+    font-size: x-large;
+    top:0;
+    display: flex;
+    justify-content: center;
+}
+#senatorsData tr:not(:first-child):hover {
+    background-color: rgb(180, 105, 166);
+}
+#senatorsData tr:first-child {
+    background-color: rgb(228, 228, 228)
+}
+#senatorsData tr:first-child:hover {
+    background-color: rgb(107, 163, 108)
+}
+table{
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+th,
+td {
+    text-align: center;
+    font-size: 1.6em;
+}
+p {
+    font-size: large;
+    text-align: center;
+}
+.collapsible {
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+}
+
+.active .content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    background-color: rgb(167, 229, 167);
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+.heading {
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-color: red;
+}
+.Democrat {
+    background-color: #727fd2;
+}
+.Republican {
+    background-color: #d66161;
+}
+.Independent {
+    background-color: rgb(231, 237, 113);
+
+}
+.scroll-box {
+    width: 100%;
+    height: 60%;
+    overflow: auto;
+    border: 1px solid #ccc;
+}
+.scroll-content {
+    width: 100%;
+    height: 500px;
+}
+#main {
+    column-count: 2;
+    font-size: large;
+  }
+.reptext {
+    color: crimson;
+}
+.demtext {
+    color: blue;
+}
+.indtext {
+    color: gold;
+}
